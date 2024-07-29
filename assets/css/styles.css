@@ -1,0 +1,20 @@
+.custom-modal {
+    position: absolute;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    z-index: 1000;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .custom-modal .modal-header, .custom-modal .modal-body {
+    border: none;
+    padding: 0;
+  }
+.card{
+    width: 30rem;
+  }
